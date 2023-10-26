@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 100wh;
+      margin: auto;
+    }
+
+    .header {
+      width: 100%;
+      height: 50px;
+      background-color: lightblue;
+    }
+
+    .aside {
+      width: 50%;
+      background-color: yellow;
+
+      flex-flow: row;
+      padding: 15px;
+    }
+
+
+
+    .footer {
+      width: 100%;
+      background-color: lightgreen;
+      clear: both;
+    }
+
+    @media screen and (min-width: 768px) {
+      .content {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+      }
+
+      .header {
+        width: 100%;
+        height: 50px;
+        background-color: lightblue;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">Header</div>
+    <div class="content">
+      <div class="aside">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur quia praesentium
+        incidunt
+        voluptas unde, voluptates expedita? Provident, ex earum.</div>
+      <div class="aside">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt eligendi neque illo fugit ea
+        totam porro animi harum soluta omnis.</div>
+    </div>
+    <div class="footer">Footer</div>
+  </div>
+</body>
+
+</html>

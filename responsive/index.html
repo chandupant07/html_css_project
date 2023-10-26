@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 100%;
+      height: 100vh;
+      border: 2px solid black;
+      position: relative;
+    }
+
+    .leftSide {
+      width: 30%;
+      height: 600px;
+      padding: 15px;
+      border: 2px solid black;
+      position: absolute;
+    }
+
+    .rightSide {
+      width: 65%;
+      height: 600px;
+      padding: 15px;
+      border: 2px solid black;
+      float: right;
+    }
+
+    .top {
+      border: 2px solid red;
+      padding: 15px;
+    }
+
+    .bottam {
+      border: 2px solid red;
+      padding: 15px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .leftSide {
+        width: 100%;
+
+        padding: 15px;
+        border: 2px solid black;
+        position: absolute;
+      }
+
+      #main {
+        margin-left: 216px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="leftSide">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci optio nostrum ex a qui eligendi
+        quasi, dignissimos obcaecati vitae amet? Laboriosam numquam deserunt, pariatur sunt aperiam quasi praesentium
+        voluptas sapiente id deleniti excepturi rerum cum, nihil tempore enim esse. Ullam voluptatem consequuntur,
+        laborum quibusdam error maxime doloribus quidem nulla?</p>
+    </div>
+
+    <div class="rightSide">
+      <div class="top">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, nobis perferendis vero reiciendis odio ipsum
+          error at quae velit cum. Natus deleniti, adipisci a cumque similique autem voluptate repellendus magnam,
+          doloremque quos itaque tempora exercitationem? Aperiam repellat fugit beatae quam eaque nostrum illo et
+          voluptatem officiis at, iusto doloremque repudiandae?</p>
+      </div>
+
+      <div class="bottam">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste ipsa dolores illo non! Ex, minus nemo
+          fuga atque ab repellendus recusandae, itaque odio provident doloribus deleniti, vitae sapiente ullam. Odio ab
+          ducimus quasi voluptate iusto doloremque eaque quaerat fugiat quod quibusdam ut expedita ipsum, nemo
+          praesentium ipsam rerum debitis.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
